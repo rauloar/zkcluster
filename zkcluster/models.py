@@ -12,7 +12,7 @@ class Terminal(models.Model):
     serialnumber = models.CharField(_('serialnumber'), max_length=100,blank=True ,help_text="device SerialNumber")
     ip = models.CharField(_('ip'), max_length=15, unique=True,help_text="device IP")
     port = models.IntegerField(_('port'), default=4370 ,help_text="device Port")
-    devicepassword =models.IntegerField(_('password'),max_length=6,  help_text="device password")
+    devicepassword =models.IntegerField(_('password') ,  help_text="device password")
     deviceencoding = models.CharField(_('encoding'), max_length=10,default='gbk',  blank= True, help_text="device content encode:bgk,utf-8...")
     class Meta:
         db_table = 'zk_terminal'
