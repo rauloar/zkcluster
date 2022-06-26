@@ -8,8 +8,8 @@ zkcluster is a simple app to manage zksoftware fingerprint device.
   support pyzk-0.9
   delete download users to terminal devices
   Dependencies
-    Python 2.7.17
-    Django 1.7.11
+    Python 2.7.18
+    Django 1.8
     pyzk 0.9
 ```
   
